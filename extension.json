@@ -1,0 +1,28 @@
+{
+  "displayName": "Constant DataElement",
+  "name": "constant-dataelement",
+  "platform": "web",
+  "version": "1.0.0",
+  "description": "Provides a DataElement type that allows you to define constant Data Elements.",
+  "author": {
+    "name": "Jan Exner"
+  },
+  "viewBasePath": "src/view/",
+  "dataElements": [
+    {
+      "displayName": "Constant",
+      "name": "constant",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "settings": {
+            "type": "string"
+          }
+        }
+      },
+      "libPath": "src/lib/dataElements/constant.js",
+      "viewPath": "dataElements/constant.html"
+    }
+  ]
+}
