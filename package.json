@@ -18,6 +18,7 @@
   "homepage": "https://github.com/janexner/launch-extension-constant-data-element#readme",
   "devDependencies": {
     "@adobe/reactor-packager": "^3.0.2",
+    "@adobe/reactor-sandbox": "^10.0.6",
     "@adobe/reactor-scaffold": "^2.1.0"
   },
   "dependencies": {
