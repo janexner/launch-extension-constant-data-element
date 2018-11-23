@@ -1,13 +1,15 @@
 {
-  "displayName": "Constant DataElement",
+  "displayName": "Constant Data Element",
   "name": "constant-dataelement",
   "platform": "web",
-  "version": "1.0.0",
-  "description": "Provides a DataElement type that allows you to define constant Data Elements.",
+  "version": "1.0.2",
+  "description": "Provides a Data Element type that allows you to define constant Data Elements.",
   "author": {
-    "name": "Jan Exner"
+    "name": "Adobe Consulting - Jan Exner",
+    "email": "jexner@adobe.com"
   },
   "viewBasePath": "src/view/",
+  "iconPath": "resources/icons/logo.svg",
   "dataElements": [
     {
       "displayName": "Constant",
